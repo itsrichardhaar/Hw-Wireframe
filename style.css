@@ -1,0 +1,117 @@
+/**
+* Float CSS
+**/
+
+* {
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+body {
+    background: #777;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-seriff;
+    width: 960px;
+    font-size: 18px;
+    color: #777;
+    
+}
+
+header {
+    background: #ebebeb;
+    width: 960px;
+    padding: 20px;
+    margin: 20px;
+
+}
+
+section {
+        background: #ebebeb;
+        width: 550px;
+        padding: 20px;
+        margin: 20px;
+    }    
+
+#left {
+    float: left;
+    width: 33.3%;
+    padding: 20px;
+    margin: 20px;
+
+}    
+
+#right {
+    float: right;
+    width: 33.3%;
+    padding: 20px;
+    margin: 0px;
+    
+}
+
+#full {
+    width: 100%;
+    overflow: auto;
+    clear: both;
+}
+
+#division {
+    margin: 20px;
+    margin-bottom: 20px;
+    
+}
+
+nav {
+    background:#ebebeb;
+    width: 495px;
+    padding: 20px;
+    margin:20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    
+}
+
+
+aside {
+    float: Div;
+    background: #ebebeb;
+    width: 495px;
+}
+
+footer {
+    padding: 20px;
+    margin: 20px;
+    background: #ebebeb;
+    width: 495px;
+}
+
+h1 {
+    color: #777;
+    background: #ebebeb;
+    width: 495px;
+}
+
+p{
+    color: #777;
+    background: #ebebeb;
+    width: 495px;
+
+}
+
+
